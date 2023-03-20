@@ -1,0 +1,10 @@
+[user]
+	name = lesleyrs
+	email = 19632758+lesleyrs@users.noreply.github.com
+[alias]
+	ch = checkout
+	br = branch
+	co = commit
+	s = status
+[pull]
+	rebase = false
