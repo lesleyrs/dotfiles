@@ -1,4 +1,4 @@
 alias e="explorer.exe ."
 alias q="wsl.exe --shutdown"
-alias l="ls -al -h"
+alias l="ls -alh"
 alias cd..="cd .."
