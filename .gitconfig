@@ -8,3 +8,5 @@
 	s = status
 [pull]
 	rebase = false
+[core]
+	editor = hx
