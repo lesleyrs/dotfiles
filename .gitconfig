@@ -10,3 +10,5 @@
 	rebase = false
 [core]
 	editor = hx
+[init]
+	defaultBranch = main
