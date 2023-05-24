@@ -29,7 +29,7 @@ right = ["diagnostics", "selections", "position", "file-encoding", "file-line-en
 "minus" = ":sh make"
 "=" = ":sh explorer.exe ."
 "_" = ":toggle lsp.display-inlay-hints"
-"+" = ":sh cargo run"
+"+" = ":sh cargo r -q"
 
 [keys.normal." "]
 "P" = "paste_clipboard_after"
