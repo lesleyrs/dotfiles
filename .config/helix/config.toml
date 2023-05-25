@@ -26,7 +26,7 @@ right = ["diagnostics", "selections", "position", "file-encoding", "file-line-en
 [keys.normal]
 "P" = "paste_after"
 "p" = "paste_before"
-"minus" = ":sh make"
+"minus" = ":sh time make -j4"
 "=" = ":sh explorer.exe ."
 "_" = ":toggle lsp.display-inlay-hints"
 "+" = ":sh cargo r -q"
