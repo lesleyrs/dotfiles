@@ -6,6 +6,7 @@
 	br = branch
 	co = commit
 	s = status
+	d = diff
 [pull]
 	rebase = false
 [core]
