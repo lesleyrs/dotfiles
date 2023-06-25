@@ -26,10 +26,11 @@ right = ["diagnostics", "selections", "position", "file-encoding", "file-line-en
 [keys.normal]
 "P" = "paste_after"
 "p" = "paste_before"
+"_" = ":sh explorer.exe ."
+"+" = ":toggle lsp.display-inlay-hints"
 "minus" = ":sh time make -j4"
-"=" = ":sh explorer.exe ."
-"_" = ":toggle lsp.display-inlay-hints"
-"+" = ":sh cargo r -q"
+"=" = ":sh rgbasm -o - main.asm | rgblink -o - - | rgbfix -v -p 0 - > unbricked.gb"
+# "+" = ":sh cargo r -q"
 
 [keys.normal." "]
 "P" = "paste_clipboard_after"
