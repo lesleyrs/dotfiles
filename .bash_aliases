@@ -1,4 +1,5 @@
 alias e="explorer.exe ."
 alias q="wsl.exe --shutdown"
 alias l="ls -alh"
+alias r="sudo apt autoremove -y"
 alias cd..="cd .."
