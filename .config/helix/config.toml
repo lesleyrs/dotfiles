@@ -28,9 +28,9 @@ right = ["diagnostics", "selections", "position", "file-encoding", "file-line-en
 "p" = "paste_before"
 "F1" = ":sh explorer.exe ."
 "F2" = ":toggle lsp.display-inlay-hints"
-"minus" = ":sh make run -s -j4"
-"=" = ":sh cmake --build build && start build/game"
-"+" = ":sh make kill -s"
+"minus" = ":sh make run -s -j8"
+"=" = ":sh make kill -s"
+"+" = ":sh cmake --build build && start build/game"
 # "+" = ":sh cargo run -q"
 
 [keys.normal." "]
