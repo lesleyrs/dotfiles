@@ -1,7 +1,12 @@
 alias e="explorer.exe ."
 alias q="wsl.exe --shutdown"
+
 alias l="ls -alh"
 alias r="sudo apt autoremove -y"
 alias cd..="cd .."
+alias cd...="cd ../.."
+alias cls="clear"
+alias gc="git clone"
 alias vi="nvim"
-alias vim="nvim"
+alias nv="nvim"
+alias lg="lazygit"

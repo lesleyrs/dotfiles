@@ -25,3 +25,8 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+export EMSDK_QUIET=1
+. ~/dev/emsdk/emsdk_env.sh
+export PATH=$PATH:/usr/local/go/bin:~/go/bin
+export SUDO_EDITOR=~/bin/hx
