@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ln -s ~/.wsl-dotfiles/.* ~/
+ln -s ~/dotfiles/.* ~/
 . ~/.profile
