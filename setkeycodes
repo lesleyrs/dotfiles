@@ -1,0 +1,2 @@
+ln -s /home/les/dotfiles/setkeycodes.service /etc/systemd/system/
+

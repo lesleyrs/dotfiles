@@ -1,0 +1,9 @@
+[Unit]
+Description=Change keycodes at boot
+
+[Service]
+Type=oneshot
+ExecStart=setkeycodes 0x3a 1 0x01 58 0xe01d 21
+
+[Install]
+WantedBy=multi-user.target
