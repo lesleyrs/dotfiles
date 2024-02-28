@@ -1,0 +1,91 @@
+---
+outlines:
+    default: { width: 85, height: 50 }
+
+views:
+    base:
+        - "1 4 preferences r"
+        - "Return z x F11"
+        - "a Ctrl Up BackSpace"
+        - "s Left Down Right"
+
+buttons:
+    BackSpace:
+        icon: "edit-clear-symbolic"
+        action: erase
+    preferences:
+        action: "show_prefs"
+        icon: "keyboard-mode-symbolic"
+    period:
+        text: "."
+    space:
+        text: " "
+    Return:
+        icon: "key-enter"
+        keysym: "Return"
+    colon:
+        text: ":"
+    F1:
+        keysym: "F1"
+    F2:
+        keysym: "F2"
+    F3:
+        keysym: "F3"
+    F4:
+        keysym: "F4"
+    F5:
+        keysym: "F5"
+    F6:
+        keysym: "F6"
+    F7:
+        keysym: "F7"
+    F8:
+        keysym: "F8"
+    F9:
+        keysym: "F9"
+    F10:
+        keysym: "F10"
+    F11:
+        keysym: "F11"
+    F12:
+        keysym: "F12"
+    Esc:
+        keysym: "Escape"
+    Tab:
+        keysym: "Tab"
+    Del:
+        keysym: "Delete"
+    Insert:
+        keysym: "Insert"
+    Menu:
+        keysym: "Menu"
+    Pause:
+        keysym: "Pause"
+    Break:
+        keysym: "Break"
+    Home:
+        keysym: "Home"
+    End:
+        keysym: "End"
+    PgUp:
+        keysym: "Page_Up"
+    PgDn:
+        keysym: "Page_Down"
+    Up:
+        label: "↑"
+        keysym: "Up"
+    Left:
+        label: "←"
+        keysym: "Left"
+    Down:
+        label: "↓"
+        keysym: "Down"
+    Right:
+        label: "→"
+        keysym: "Right"
+    Ctrl:
+        modifier: "Control"
+        label: "Ctrl"
+    Alt:
+        modifier: "Alt"
+        label: "Alt"

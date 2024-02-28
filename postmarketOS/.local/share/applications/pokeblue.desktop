@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.2.0
+Type=Application
+Terminal=false
+Exec=/home/user/Peanut-GB/examples/sdl2/peanut-sdl /home/user/dev/pokered/pokeblue.gbc
+Name=pokeblue
+Icon=/home/user/dev/pokered/gfx/intro/blue_jigglypuff_3.png

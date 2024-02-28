@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Brightness
+GenericName=Brightness
+Comment=Change default brightness on boot
+Exec=/bin/sh /home/user/.config/autostart/brightness
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true

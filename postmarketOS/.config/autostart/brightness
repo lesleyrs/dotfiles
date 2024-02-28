@@ -1,0 +1,6 @@
+busctl --user call --expect-reply=true \
+	'org.gnome.SettingsDaemon.Power' '/org/gnome/SettingsDaemon/Power' 'org.freedesktop.DBus.Properties' 'Set' \
+	'ssv' \
+	'org.gnome.SettingsDaemon.Power.Screen' \
+	'Brightness' \
+	i 5

@@ -1,0 +1,9 @@
+alias f='cd $(find . -type d | fzf --preview "ls {}")'
+alias c='cd ..'
+alias l='ls -a'
+alias ll='ls -alh'
+alias u='sudo apk upgrade -U'
+alias cls='clear'
+alias gc='git clone'
+alias nv='nvim'
+alias lg="lazygit"
