@@ -8,3 +8,12 @@ auto-format = true
 [[language]]
 name = "c"
 auto-format = true
+
+[language-server.quick-lint-js]
+command = "quick-lint-js"
+args = ["--lsp-server"]
+
+[[language]]
+name = "javascript"
+language-servers = ["quick-lint-js", "typescript-language-server"]
+auto-format = true
