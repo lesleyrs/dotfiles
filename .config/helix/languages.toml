@@ -1,13 +1,13 @@
 [language-server.rust-analyzer.config]
 checkOnSave = { command = "clippy" }
 
-[[language]]
-name = "cpp"
-auto-format = true
+# [[language]]
+# name = "cpp"
+# auto-format = true
 
-[[language]]
-name = "c"
-auto-format = true
+# [[language]]
+# name = "c"
+# auto-format = true
 
 [language-server.quick-lint-js]
 command = "quick-lint-js"
