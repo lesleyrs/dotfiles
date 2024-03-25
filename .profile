@@ -26,7 +26,6 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export DISPLAY=:0
 export PATH=$PATH:$HOME/node-v20.11.1-linux-x64/bin
 export PATH=$PATH:/usr/local/go/bin:~/go/bin
 export SUDO_EDITOR=~/bin/hx
