@@ -28,4 +28,5 @@ fi
 
 export PATH=$PATH:$HOME/node-v20.11.1-linux-x64/bin
 export PATH=$PATH:/usr/local/go/bin:~/go/bin
+export PATH=$PATH:$HOME/jdtls/bin
 export SUDO_EDITOR=~/bin/hx
