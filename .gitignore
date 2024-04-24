@@ -1,6 +1,8 @@
 .config/lazygit/state.yml
 .config/btop/
 .config/pulse/
+.config/go/
+.config/htop/
 
 .config/.gsd-keyboard.settings-ported
 .config/dconf/
