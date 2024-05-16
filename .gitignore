@@ -3,6 +3,7 @@
 .config/pulse/
 .config/go/
 .config/htop/
+.config/dlv/
 
 .config/.gsd-keyboard.settings-ported
 .config/dconf/

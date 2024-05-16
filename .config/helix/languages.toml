@@ -17,3 +17,7 @@ args = ["--lsp-server"]
 name = "javascript"
 language-servers = ["quick-lint-js", "typescript-language-server"]
 auto-format = true
+
+[[language]]
+name = "go"
+formatter = { command = "goimports" }
