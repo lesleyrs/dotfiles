@@ -9,7 +9,7 @@
 	d = diff
 	r = restore
 [pull]
-	rebase = false
+	rebase = true
 [core]
 	editor = hx
 [init]

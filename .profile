@@ -30,4 +30,4 @@ export PATH=$PATH:$HOME/node-v20.11.1-linux-x64/bin
 export PATH=$PATH:/usr/local/go/bin:~/go/bin
 export PATH=$PATH:$HOME/jdtls/bin
 export PATH=$PATH:$HOME/gradle-8.7/bin
-export SUDO_EDITOR=~/bin/hx
+export EDITOR=~/.local/bin/hx
