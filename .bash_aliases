@@ -17,3 +17,4 @@ alias j21="sudo update-java-alternatives --set /usr/lib/jvm/java-1.21.0-openjdk-
 alias gd="git status && git diff"
 alias gn="git add . && git commit -m "note" && git push"
 alias gf="git add . && git commit -m "fix" && git push"
+alias gp="git pull --no-rebase"
