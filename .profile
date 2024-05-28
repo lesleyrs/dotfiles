@@ -26,8 +26,8 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export PATH=$PATH:$HOME/node-v20.11.1-linux-x64/bin
-export PATH=$PATH:/usr/local/go/bin:~/go/bin
-export PATH=$PATH:$HOME/jdtls/bin
-export PATH=$PATH:$HOME/gradle-8.7/bin
+export PATH=$HOME/node-v20.11.1-linux-x64/bin:$PATH
+export PATH=/usr/local/go/bin:~/go/bin:$PATH
+export PATH=$HOME/jdtls/bin:$PATH
+export PATH=$HOME/gradle-8.7/bin:$PATH
 export EDITOR=~/.local/bin/hx
