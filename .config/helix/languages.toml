@@ -9,6 +9,10 @@ checkOnSave = { command = "clippy" }
 # name = "c"
 # auto-format = true
 
+[[language]]
+name = "java"
+# language-servers = []
+
 [language-server.quick-lint-js]
 command = "quick-lint-js"
 args = ["--lsp-server"]
@@ -16,7 +20,7 @@ args = ["--lsp-server"]
 [[language]]
 name = "javascript"
 language-servers = ["quick-lint-js", "typescript-language-server"]
-auto-format = true
+auto-format = false
 
 [[language]]
 name = "go"
