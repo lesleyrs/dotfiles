@@ -32,7 +32,8 @@ right = ["diagnostics", "selections", "position", "file-encoding", "file-line-en
 "F3" = ":yank-diagnostic"
 "F4" = [":format", ":w"]
 "F5" = ":sh emmake make -s -j8"
-"minus" = ":sh make run -s -j8"
+"F6" = ":sh make run -s -j8"
+"minus" = ":sh make -s -j8"
 "=" = ":sh make kill -s"
 
 [keys.normal." "]
