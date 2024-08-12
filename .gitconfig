@@ -8,8 +8,6 @@
 	s = status
 	d = diff
 	r = restore
-[pull]
-	rebase = true
 [core]
 	editor = hx
 [init]
