@@ -30,4 +30,5 @@ export PATH=$HOME/node-v22.4.0-linux-x64/bin:$PATH
 export PATH=/usr/local/go/bin:~/go/bin:$PATH
 export PATH=$HOME/jdtls/bin:$PATH
 export PATH=$HOME/gradle-8.7/bin:$PATH
+export PATH=/opt/devkitpro/pacman/bin:$PATH
 export EDITOR=~/.local/bin/hx
