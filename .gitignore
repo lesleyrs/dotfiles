@@ -4,6 +4,7 @@
 .config/go/
 .config/htop/
 .config/dlv/
+.config/citra-emu/
 
 .config/.gsd-keyboard.settings-ported
 .config/dconf/
