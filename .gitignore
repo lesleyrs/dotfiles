@@ -5,6 +5,7 @@
 .config/htop/
 .config/dlv/
 .config/citra-emu/
+.config/rsc-c
 
 .config/.gsd-keyboard.settings-ported
 .config/dconf/
