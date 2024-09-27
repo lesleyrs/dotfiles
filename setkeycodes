@@ -2,4 +2,5 @@
 
 sudo ln -sf ~/dotfiles/setkeycodes.service /etc/systemd/system/
 sudo systemctl start setkeycodes.service
+sudo systemctl enable setkeycodes.service
 
