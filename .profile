@@ -33,4 +33,4 @@ export PATH=$HOME/gradle-8.7/bin:$PATH
 export PATH=/opt/devkitpro/pacman/bin:$PATH
 export EDITOR=~/.local/bin/hx
 export EMSDK_QUIET=1
-source "$HOME/emsdk/emsdk_env.sh"
+. "$HOME/emsdk/emsdk_env.sh"
