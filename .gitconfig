@@ -10,5 +10,6 @@
 	r = restore
 [core]
 	editor = hx
+	autocrlf = input
 [init]
 	defaultBranch = main
