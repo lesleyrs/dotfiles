@@ -16,8 +16,11 @@ alias j8="sudo update-java-alternatives --set /usr/lib/jvm/java-1.8.0-openjdk-am
 alias j21="sudo update-java-alternatives --set /usr/lib/jvm/java-1.21.0-openjdk-amd64"
 alias gs="git status"
 alias gd="git status && git diff"
-alias gf="git add . && git commit -m "fix" && git push"
 alias gp="git pull --rebase"
 alias gl="git log -p"
 alias glo="git log --oneline --graph"
 alias gcd="git clean -fXdn"
+
+gf() {
+  git add . && git commit -m "$*" && git push
+}
