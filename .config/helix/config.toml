@@ -35,10 +35,11 @@ right = ["diagnostics", "selections", "position", "file-encoding", "file-line-en
 "F2" = ":toggle lsp.display-inlay-hints"
 "F3" = ":yank-diagnostic"
 "F4" = [":format", ":w"]
-"F5" = ":sh emmake make -s -j8"
-"F6" = ":sh make run -s -j8"
-"minus" = [":w", ":sh make -s -j8"]
-"=" = ":sh make kill -s"
+# "F5" = ":sh emmake make -s -j8"
+# "minus" = [":w", ":sh make -s -j8"]
+"minus" = [":w"]
+"=" = ":sh make run CC=tcc -s -j8"
+# "=" = ":sh make kill -s"
 
 [keys.normal." "]
 "P" = "paste_clipboard_after"

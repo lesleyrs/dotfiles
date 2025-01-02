@@ -31,6 +31,7 @@ export PATH=/usr/local/go/bin:~/go/bin:$PATH
 export PATH=$HOME/jdtls/bin:$PATH
 export PATH=$HOME/gradle-8.7/bin:$PATH
 export PATH=/opt/devkitpro/pacman/bin:$PATH
+export PATH=/usr/lib/linux-tools/6.8.0-51-generic:$PATH
 export EDITOR=~/.local/bin/hx
 export EMSDK_QUIET=1
 . "$HOME/emsdk/emsdk_env.sh"
