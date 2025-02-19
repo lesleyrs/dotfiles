@@ -24,3 +24,7 @@ alias gcd="git clean -fXdn"
 gf() {
   git add . && git commit -m "$*" && git push
 }
+
+s() {
+  explorer.exe "$1"
+}
