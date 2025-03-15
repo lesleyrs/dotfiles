@@ -35,3 +35,8 @@ export PATH=/usr/lib/linux-tools/6.8.0-51-generic:$PATH
 export EDITOR=~/.local/bin/hx
 export EMSDK_QUIET=1
 . "$HOME/emsdk/emsdk_env.sh"
+export PSPDEV=/usr/local/pspdev
+export PATH="$PATH:$PSPDEV/bin"
+export VITASDK=/usr/local/vitasdk
+export PATH=$VITASDK/bin:$PATH
+. /opt/toolchains/dc/kos/environ.sh
