@@ -1,6 +1,10 @@
 [language-server.rust-analyzer.config]
 checkOnSave = { command = "clippy" }
 
+[language-server.clangd]
+command = "clangd-20"
+args = ["--header-insertion=never"]
+
 [[language]]
 name = "cpp"
 indent = { tab-width = 4, unit = "    " }
@@ -22,7 +26,8 @@ args = ["--lsp-server"]
 
 [[language]]
 name = "javascript"
-language-servers = ["quick-lint-js", "typescript-language-server"]
+# language-servers = ["quick-lint-js", "typescript-language-server"]
+language-servers = ["typescript-language-server"]
 auto-format = false
 
 [[language]]
