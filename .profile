@@ -26,7 +26,7 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export PATH=$HOME/node-v22.4.0-linux-x64/bin:$PATH
+export PATH=$HOME/node-v24.19.0-linux-x64/bin:$PATH
 export PATH=/opt/devkitpro/pacman/bin:$PATH
 export PATH=/usr/lib/linux-tools/6.8.0-107-generic:$PATH
 export EDITOR=~/.local/bin/hx

@@ -2,7 +2,7 @@ theme = "autumn"
 
 [editor]
 line-number = "relative"
-mouse = false
+mouse = true
 true-color = true
 
 [editor.cursor-shape]

@@ -1,8 +1,5 @@
-[language-server.rust-analyzer.config]
-checkOnSave = { command = "clippy" }
-
 [language-server.clangd]
-command = "clangd-20"
+command = "clangd-22"
 args = ["--header-insertion=never"]
 
 [[language]]
@@ -24,11 +21,18 @@ language-servers = []
 command = "quick-lint-js"
 args = ["--lsp-server"]
 
+# language-servers = ["quick-lint-js", "typescript-language-server"]
 [[language]]
 name = "javascript"
-# language-servers = ["quick-lint-js", "typescript-language-server"]
-language-servers = ["typescript-language-server"]
-auto-format = false
+language-servers = ["tsc"]
+
+[[language]]
+name = "typescript"
+language-servers = ["tsc"]
+
+[language-server.tsc]
+command = "tsc"
+args = ["--lsp", "--stdio"]
 
 [[language]]
 name = "go"
