@@ -3,7 +3,7 @@ alias q="wsl.exe --shutdown"
 
 # alias f='cd $(find . -type d | fzf --preview "ls {}")'
 alias c="cd .."
-alias l="ls --group-directories-first -alht"
+alias l="ls --group-directories-first --time-style=long-iso -alht"
 alias r="sudo apt autoremove -y"
 alias u="sudo apt update && sudo apt upgrade"
 alias cls="clear"
