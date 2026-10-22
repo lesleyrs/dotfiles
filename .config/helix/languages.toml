@@ -1,5 +1,5 @@
 [language-server.clangd]
-command = "clangd-22"
+command = "clangd"
 args = ["--header-insertion=never"]
 
 [[language]]
